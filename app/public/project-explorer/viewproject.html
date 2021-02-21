@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            .h3 {
+                margin-top: 80px;
+            }
+            .col > p {
+                margin-bottom: 0;
+            }
+        </style>
+
+    </head>
+    <body>
+        <header>
+        
+            <nav class="navbar navbar-expand-md navbar-primary fixed-top bg-primary text-white" >
+                <a class="navbar-brand text-white" href="#">Project Explorer</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <form class="form-inline my-2 my-lg-0" name='searchForm'>
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search Projects" aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                    <a class="nav-link text-secondary" href="createproject.html">Submit</a>
+                  </form>
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link text-secondary" href="register.html">Sign up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="login.html">Login</a>
+                      </li>
+                  </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="container">
+                <h3 class="h3">Project 1</h3>
+                <div class="row bg-light p-3">
+                    <div class="col">
+                        <p>Created By</p>
+                        <p>Ade Chris</p>
+                    </div>
+                    <div class="col">
+                        <p>Date Created</p>
+                        <p>2020-08-30</p>
+                    </div>
+                    <div class="col">
+                        <p>Last Updated</p>
+                        <p>2020-08-30</p>
+                    </div>
+                    <div class="col">
+                    <a class="btn btn-primary d-flex justify-content-end w-50" href="#" role="button">Edit Project</a>
+                </div>
+                </div>
+            </section>
+
+            <section class="container mt-4">
+                <div class="row">
+                    <div class="col-6">
+                        <h5>Project Abstract</h5>
+                        <hr/>
+                    </div>
+                    <div class="col-6">
+                        <h5>Manage Project Details</h5>
+                        <hr/>
+                    </div>
+                    <div class="col-6">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-header font-weight-bold">
+                                Author(s)
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Ade Chris</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="card-link">#web</a>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                    <form>
+                        <div class="form-row w-100">
+                            <div class="form-group col-6">
+                                <label class="form-label h5">Comments</label>
+                              <textarea type="text" class="form-control" name="comment" rows="3">Leave a comment</textarea>
+                            </div>
+                            <div class="form-group col">
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-header font-weight-bold">
+                                            Project Files
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-center">No file uploaded yet</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group  w-50">
+                            <a class="btn btn-primary btn-lg " href="#" role="button">Submit</a>
+                            <hr/>
+                            <p class="text-center">No comments added yet</p>
+                        </div>
+                    </form>
+               
+            </section>
+        </main>
+        <footer class="bg-light text-muted text-lg-start">
+            <div class="text-right p-3 mt-4">
+             Project Explorer © 2020 .
+              <a class="text-dark" href="index.html">Edconnect</a>
+            </div>
+          </footer>
+    </body>
+</html>

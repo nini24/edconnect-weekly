@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            .container {
+                margin-top: 70px;
+            }
+            .col > p {
+                margin-bottom: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+        
+            <nav class="navbar navbar-expand-md navbar-primary fixed-top bg-primary text-white" >
+                <a class="navbar-brand text-white" href="#">Project Explorer</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <form class="form-inline my-2 my-lg-0" name='searchForm'>
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search Projects" aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                    <a class="nav-link text-secondary" href="createproject.html">Submit</a>
+                  </form>
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link text-secondary" href="register.html">Sign up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="login.html">Login</a>
+                      </li>
+                  </ul>
+            </nav>
+        </header>
+        <main>
+
+            <div class="container">
+                <div class="row">
+                   <span class="h3">Ade Chuks</span>
+                   <span class="text-muted mt-2 ml-1">ade@edconnect.ng</span>
+                </div>
+                <div class="row bg-light">
+                    <div class="col">
+                        <p>Program</p>
+                        <p>Computer Information Systems</p>
+                    </div>
+                    <div class="col">
+                        <p>Matriculation number</p>
+                        <p>33/3333</p>
+                    </div>
+                    <div class="col">
+                        <p>Graduation year</p>
+                        <p>2018</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <h4>Update Profile</h4>
+                <hr/>
+                <form class="form-signup mt-5">
+                    <div class="form-row w-75 mx-auto">
+                        <div class="form-group col-6">
+                            <label class="form-label">First Name</label>
+                          <input type="text" class="form-control" name="firstName"required autofocus>
+                        </div>
+                        <div class="form-group col-6">
+                            <label class="form-label">Last Name</label>
+                          <input type="text" class="form-control" name="lastName" required autofocus>
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="inputEmail" class="form-label">Email address</label>
+                          <input type="email" name="email" id="inputEmail" class="form-control" required autofocus>
+                        </div>
+                        <div class="form-group col-6">
+                            <label class="form-label">Program</label>
+                            <select class="form-control"> 
+                                <option selected>
+                                    Choose...
+                                </option>
+                                <option value="computer_science">Computer Science</option>
+                                <option value="computer_information_systems">Computer Information Systems</option>
+                                <option value="computer_technology">Computer Technology</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-6">
+                            <label class="form-label">Matriculation number</label>
+                          <input type="text" class="form-control" name="matricNumber" required autofocus>
+                        </div>
+                        <div class="form-group col-6">
+                            <label class="form-label">Graduation year</label>
+                            <select class="form-control"> 
+                                <option selected>
+                                    Choose...
+                                </option>
+                                <option value="2013">2013</option>
+                                <option value="2014">2014</option>
+                                <option value="2015">2015</option>
+                                <option value="2016">2016</option>
+                                <option value="2017">2017</option>
+                                <option value="2018">2018</option>
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                            </select>
+                        </div>
+                        
+                    </div>
+                    <div class="form-group mx-auto w-75">
+                        <a class="btn btn-primary btn-lg " href="#" role="button">Update Profile</a>
+                    </div>
+                </form>
+            </div>
+
+            <div class="container">
+                <h4>Change Password</h4>
+                <hr/>
+                <form class="form-signup mt-5">
+                    <div class="form-row w-75 mx-auto">
+                        <div class="form-group col">
+                            <label for="inputPassword" class="form-label"> Current password</label>
+                            <input type="password" name="currentPassword" id="inputPassword" class="form-control" placeholder="Current Password" required>
+                            </div>
+                            <div class="form-group col">
+                                <label for="inputPassword" class="form-label"> New password</label>
+                                <input type="password" name="newPassword" id="inputPassword" class="form-control" placeholder="Your new password" required>
+                                </div>
+                                <div class="form-group col">
+                                    <label for="inputPassword" class="form-label"> Confirm password</label>
+                                    <input type="password" name="confirmPassword" id="inputPassword" class="form-control" placeholder="Confirm new password" required>
+                                    </div>
+                            </div>
+                            <div class="form-group mx-auto w-75">
+                                <a class="btn btn-primary btn-lg " href="#" role="button">Change Password</a>
+                            </div>
+                </form>
+
+            </div>
+            
+        </main>
+        <footer class="bg-light text-muted text-lg-start">
+            <div class="text-right p-3 mt-4">
+             Project Explorer © 2020 .
+              <a class="text-dark" href="index.html">Edconnect</a>
+            </div>
+          </footer>
+    </body>
+</html>
